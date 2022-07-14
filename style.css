@@ -227,12 +227,12 @@ body{
     overflow: hidden;
 }
 .story::-webkit-scrollbar {
-    height: 6px;  
+    height: 2px;  
     background: transparent;  
     scroll-behavior: smooth;
 }
 .story::-webkit-scrollbar-thumb{
-    background: var(--darkblue); 
+    background: var(--grey); 
     border-radius: 50px;
 }
 .story:hover
@@ -708,6 +708,15 @@ h3
     .tab-item p, .nav-item .datasnap, .temp
     {
         display: none;
+    }
+    .tags-used
+    {
+        display: block;
+    }
+    .reaction
+    {
+        margin-left: -10px;
+        margin-top: 10px;
     }
 }
 a
